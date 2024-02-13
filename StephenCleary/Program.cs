@@ -12,12 +12,7 @@ namespace StephenCleary
             Console.WriteLine("Hello, World!");
 
             await Ch02_T05.Solution01.RunAsync(args);
-
-            //Task completed1 = Task.CompletedTask;
-            //var cts = new CancellationTokenSource();
-            //Task completed2 = Task.FromCanceled(cts.Token);
-            //Task completed3 = Task.FromException(new ApplicationException("My Exception"));
-            //Task completed4 = Task.FromResult<int>(99);
+            
         }
     }
 }
